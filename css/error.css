@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'AvantGardeGothicC-Bold';
+  background: url('../img/error/error.png') no-repeat;
+  background-color: rgb(237,216, 99);
+  background-size: cover;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+header {
+  margin: 0; 
+  padding: 0;
+  background-color: rgb(237,216, 99);
+  display: -webkit-flex; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none; 
+  color: #fff;
+  font-size: 1.2em;
+  font-family: 'AvantGardeGothicC-Bold';
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: baseline;
+  align-items: baseline;
+}
+
+nav input {
+  border-style: none;
+  border-bottom-style: solid;
+  background-color: rgb(237,216, 99);
+}
+
+nav img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+nav ul li {
+  margin: 0.5em;
+}
+
+nav ul li:first-child {
+  font-size: 2em;
+}
+
+nav ul a {
+  color: #000;
+  text-decoration: none;
+}
+
+main section{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+main h1 {
+  font-size: 4em;
+  padding: 0.4em;
+  border-radius: 0.2em;
+  color: #000;
+  background-color: rgb(237, 216, 99);
+}
+
+@media only screen and (max-device-width: 1024px) {
+  main section {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+
+  main h1 {
+    font-size: 1em;
+    color: #000;
+  }
+}
+
+@font-face {
+  font-family: 'AvantGardeGothicC-Bold';
+  src: url('../fonts/AvantGardeGothicC-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/AvantGardeGothicC-Bold.otf')  format('opentype'),
+  url('../fonts/AvantGardeGothicC-Bold.woff') format('woff'), 
+  url('../fonts/AvantGardeGothicC-Bold.ttf')  format('truetype'), 
+  url('../fonts/AvantGardeGothicC-Bold.svg#AvantGardeGothicC-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

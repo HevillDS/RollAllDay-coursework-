@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'AvantGardeGothicC-Bold';
+  src: url('AvantGardeGothicC-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('AvantGardeGothicC-Bold.otf')  format('opentype'),
+  url('AvantGardeGothicC-Bold.woff') format('woff'), 
+  url('AvantGardeGothicC-Bold.ttf')  format('truetype'), 
+  url('AvantGardeGothicC-Bold.svg#AvantGardeGothicC-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
